@@ -2,9 +2,9 @@ require "yaml"
 
 def load_library(file)
   emoticons = YAML.load_file(file)
-
+  get_emoticon = []
   emoticons.each do |emotion, emoticon|
-    
+    get_emoticon.push(emotion)
 
   end
 
