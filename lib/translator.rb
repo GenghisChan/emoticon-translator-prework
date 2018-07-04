@@ -5,7 +5,7 @@ def load_library(file)
 
   emoticons.each do |emotion, emoticon|
     
-    
+
   end
 
 end
