@@ -3,7 +3,7 @@ require "yaml"
 def load_library(file)
   emoticons = YAML.load_file(file)
 
-  emoticons.map do |get_emoticon, get_meaning|
+  emoticons.each do |get_emoticon, get_meaning|
     get_emoticon
   end
 
