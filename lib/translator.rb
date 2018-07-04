@@ -7,7 +7,7 @@ def load_library(file)
     get_emoticon.push(emotion)
 
   end
-
+  get_emoticon
 end
 
 def get_japanese_emoticon
